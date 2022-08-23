@@ -1,0 +1,35 @@
+PUBLISHER,JOURNAL NAME,TITLE CLASS NAME,DAS HTML TAG (OPTIONAL),DAS HEADER TEXT,DAS BODY TAG (OPTIONAL),AUTHOR NAME,AUTHOR SURNAME (OPTIONAL),AUTHOR GET CHILD?
+Taylor & Francis,CyTA - Journal of Food,NLM_article-title hlFld-title,h2,Data availability,p,author,n/a,no
+Wiley,eFood,citation__title,n/a,Data availability statement:,p,author-name,n/a,no
+Wiley,Food Frontiers,citation__title,h2,AVAILABILITY OF DATA AND MATERIALS,p,author-name,n/a,no
+Wiley,Food Science & Nutrition,citation__title,h1,DATA AVAILABILITY STATEMENT,p,author-name,n/a,no
+Wiley,Food and Energy Security,citation__title,n/a,DATA AVAILABILITY STATEMENT,p,author-name,n/a,no
+Wiley,Global Challenges,citation__title,h1,Data Availability Statement,p,author-name,n/a,no
+Wiley,Legume Science,citation__title,h1,DATA AVAILABILITY STATEMENT,p,author-name,n/a,no
+Elsevier,Clinical Nutrition Open Science,title-text,h2,Availability of data and materials,p,text given-name,text surname,no
+Elsevier,Clinical Nutrition Open Science,title-text,h2,Availability of data and material,p,text given-name,text surname,no
+Elsevier,Current Research in Food Science,title-text,h2,Data availability statement,p,text given-name,text surname,no
+Elsevier,Current Research in Food Science,title-text,h2,Data linking,p,text given-name,text surname,no
+Elsevier,Food Chemistry: Molecular science,title-text,h2,Data Availability,p,text given-name,text surname,no
+Elsevier,Food Chemistry: X,title-text,n/a,$publisher-standard,n/a,text given-name,text surname,no
+Elsevier,Food Hydrocolloids for Health,title-text,n/a,$publisher-standard,n/a,text given-name,text surname,no
+Elsevier,Future Foods,title-text,n/a,$publisher-standard,n/a,text given-name,text surname,no
+Elsevier,human nutrition & metabolism,title-text,h2,Availability of data and materials,p,text given-name,text surname,no
+Elsevier,human nutrition & metabolism,title-text,h2,Data availability,p,text given-name,text surname,no
+Elsevier,Journal of Agriculture and Food Research,title-text,n/a,$publisher-standard,n/a,text given-name,text surname,no
+Elsevier,Journal of functional foods,title-text,n/a,$publisher-standard,n/a,text given-name,text surname,no
+Elsevier,NFS Journal,title-text,n/a,$publisher-standard,n/a,text given-name,text surname,no
+Elsevier,Resources Environment and Sustainability,title-text,n/a,$publisher-standard,n/a,text given-name,text surname,no
+Elsevier,Sustainable Futures,title-text,h2,Data for reference,p,text given-name,text surname,no
+Springer,Agicultural and Food Economics,c-article-title,h2,Availability of data and materials,p,c-article-author-list__item,n/a,yes
+Springer,Agriculture & Food Security,c-article-title,h2,Availability of data and materials,p,c-article-author-list__item,n/a,yes
+Springer,nutrition journal,c-article-title,h2,Availability of data and materials,p,c-article-author-list__item,n/a,yes
+Springer,CABI Agriculture and Bioscience,c-article-title,h2,Availability of data and materials,p,c-article-author-list__item,n/a,yes
+Springer,"Food Production, Processing and Nutrition",c-article-title,h2,Availability of data and materials,p,c-article-author-list__item,n/a,yes
+Springer,Genes & Nutrition,c-article-title,h2,Availability of data and materials,p,c-article-author-list__item,n/a,yes
+Springer,Journal of Ethnic Foods,c-article-title,h2,Availability of data and materials,p,c-article-author-list__item,n/a,yes
+Springer,Nutrition & Metabolism,c-article-title,h2,Availability of data and materials,p,c-article-author-list__item,n/a,yes
+Springer,BMC nutrition,c-article-title,h2,Availability of data and materials,p,c-article-author-list__item,n/a,yes
+Taylor & Francis,CyTA - Journal of Food,NLM_article-title hlFld-title,h2,Data availability statement,p,author,n/a,no
+Taylor & Francis,CyTA - Journal of Food,NLM_article-title hlFld-title,h2,Data sharing statement,p,author,n/a,no
+Wiley,Food Science & Nutrition,citation__title,h2, DATA AVAILABILITY STATEMENT,p,author-name,n/a,no
