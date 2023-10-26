@@ -6,7 +6,7 @@ Python 3 with Headless Chrome scraper designed to find data availability stateme
 
 ### Install & Run:
 1. Download all files from the Gaqipu repository: https://github.com/thomasjmmccarthy/gaqipu-scraper
-2. Download Chromedriver from https://chromedriver.chromium.org. Make sure chromedriver.exe is located in the same directory as Gaqipu.py
+2. Download the version of Chromedriver that matches your version of Google Chrome from https://googlechromelabs.github.io/chrome-for-testing/. Make sure chromedriver.exe is located in the same directory as Gaqipu.py
 3. Run launcher.py using Python 3. This will install all required packages and libraries for you, as well as establish a new virtual environment
 4. Gaqipu should run automatically once launcher.py is complete
 

@@ -6,6 +6,7 @@ from tkinter import ttk
 import threading
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from fake_useragent import UserAgent
 
 
@@ -37,7 +38,8 @@ def get_new_driver():
     options.headless = True
     options.add_argument('--window-size=1920,1080')
     print('New Webdriver Session:', user_agent, '\n')
-    return webdriver.Chrome(options=options, executable_path='chromedriver.exe')
+    service = Service(executable_path='./chromedriver.exe')
+    return webdriver.Chrome(options=options, service=service)
     
     
 
