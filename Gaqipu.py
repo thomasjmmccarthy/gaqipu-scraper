@@ -3,6 +3,7 @@ import csv
 import winsound
 
 from bs4 import BeautifulSoup
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.options import Options
 
 # See helpers.py for functionality
@@ -230,10 +231,15 @@ def search_page(url, configs):
     if '?' in print_code:
         extension += '(AMBIGUOUS IDENTIFIER(S) FOUND [SEE OUTPUT FILE])  '
     if '!' in print_code:
-        extension += '(ERROR RETRIEVING DATA)'
+        extension += '(ERROR RETRIEVING DATA) '
     print(print_code, url.link, extension)
     
-    title = soup.find(class_=c.title_class).get_text()
+    title = soup.find(class_=c.title_class)
+    if title != None:
+        title_text = title.get_text()
+    else:
+        title_text = ""
+        extension += '(ARTICLE TITLE NOT FOUND. CHECK CONFIGURATIONS)'
     
     retry_url = LOG.add_url_to_report(das=clamp(das_found,0,2), author=clamp(author_found,0,1), iteration=ITERATION)
         

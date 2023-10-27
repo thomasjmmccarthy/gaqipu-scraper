@@ -35,7 +35,7 @@ def get_new_driver():
     options = Options()
     options.add_argument(f'user-agent={user_agent}')
     options.add_argument('--disable-blink-features=AutomationControlled')    
-    options.headless = True
+    options.add_argument('--headless=new')
     options.add_argument('--window-size=1920,1080')
     print('New Webdriver Session:', user_agent, '\n')
     service = Service(executable_path='./chromedriver.exe')

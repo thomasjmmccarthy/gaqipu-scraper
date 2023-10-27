@@ -36,7 +36,7 @@ exec(open('venv/Scripts/activate_this.py').read(), {'__file__': 'venv/Scripts/ac
 
 call_python_subprocesses(True, ['pip install chromedriver-autoinstaller',
                 'pip install requests',
-                'pip install beautifulSoup4'])
+                'pip install beautifulsoup4'])
 
 print('\n\nPre-requisites met. Launching Gaqipu scraper...\n\n')
 

@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# chromedriver
+.chromedriver.exe
+
+# log and output
+log.txt
+.output.csv
