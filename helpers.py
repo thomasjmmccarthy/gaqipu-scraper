@@ -322,7 +322,7 @@ class AnalysisLog:
         
     def find_report(self, name):
         for i in range(len(self.journal_reports)):
-            if self.journal_reports.name[i] == name:
+            if self.journal_reports[i].name == name:
                 self.index = i
                 return None
         # If a report by the given name isn't found, start a new report
