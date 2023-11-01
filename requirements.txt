@@ -1,0 +1,7 @@
+selenium
+virtualenv
+fake_useragent
+tk
+chromedriver-autoinstaller
+requests
+beautifulsoup4

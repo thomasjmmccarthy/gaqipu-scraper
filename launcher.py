@@ -25,18 +25,13 @@ print('Checking Pre-Requisits for Gaqipu Scraper...\n\n\n')
     
 call_python_subprocesses(True, [
     'pip install --upgrade pip',
-    'pip install selenium',
     'pip install virtualenv',
-    'pip install fake_useragent',
-    'pip install tk',
     'virtualenv venv'
 ])
 
 exec(open('venv/Scripts/activate_this.py').read(), {'__file__': 'venv/Scripts/activate_this.py'})
 
-call_python_subprocesses(True, ['pip install chromedriver-autoinstaller',
-                'pip install requests',
-                'pip install beautifulsoup4'])
+call_python_subprocesses(True, ['pip install -r requirements.txt'])
 
 print('\n\nPre-requisites met. Launching Gaqipu scraper...\n\n')
 

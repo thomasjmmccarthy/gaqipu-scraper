@@ -130,8 +130,10 @@ dmypy.json
 
 
 # chromedriver
-.chromedriver.exe
+./chromedriver.exe
+
 
 # log and output
-log.txt
 .output.csv
+chromedriver.exe
+output.csv
